@@ -62,7 +62,6 @@ body{
 	background: radial-gradient(71.4% 71.4% at 51.7% 28.6%, #3A393F 0%, #17171A 100%);
 	box-shadow: inset 0px 0px 114px rgba(0, 0, 0, 0.45);
 	z-index: 2;
-		
 
 
 }
@@ -72,11 +71,9 @@ body{
 		justify-content:center;
 		align-content: center;
 		position: relative;
-		top: 90px;
-
-
-
+		top: 60px;
 	}
+	
 		input{
 		
 			
@@ -90,3 +87,33 @@ body{
 			color: background:linear-gradient(180deg, #FFFFFF 0%, #D5D8E1 100%);
 
 		}
+
+.botones{
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content:end;
+}
+
+		button{
+			cursor: pointer;
+			background-color: transparent;
+			border:none;
+			
+		}
+
+			.start{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 16px;
+				letter-spacing: 10px;
+				text-transform: uppercase;
+				opacity: .5;
+				font-weight: bold;
+				margin-bottom: 17px;
+				
+			}
+
+			.configuracion{
+				opacity: .3;
+
+			}
